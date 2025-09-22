@@ -3,4 +3,4 @@ from apae import app
 
 @app.route('/')
 def homepage():
-    return 'Hello World!'
+    return render_template("homepage.html")
