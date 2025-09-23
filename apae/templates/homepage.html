@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apae de Jóia</title>
-    <link rel="icon" href="{{ url_for('static', filename='images/logo_apae.ico') }}" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <h1>APAE</h1>
-        <a href="/historia">História</a>
-        <a href="/clinica">Clinica</a>
-        <a href="/seja_voluntario">Seja Voluntário</a>
-    </header>
+{% extends "base.html" %}
 
+{% block body %}
     <div>
         <h2>Oque é uma APAE?</h2>
         <p>APAE (Associação de Pais e Amigos dos Excepcionais).</p>
@@ -34,5 +21,4 @@
         <p>Veja mais sobre na aba <a href="/clinica">“Clinica”.</a></p>
     </div>
 
-</body>
-</html>
+{% endblock %}
