@@ -15,7 +15,22 @@
         <a href="/clinica">Clinica</a>
         <a href="/seja_voluntario">Seja Voluntário</a>
     </header>
+
+    
     {% block body %}
     {% endblock %}
+    <footer>
+        <a href="https://www.instagram.com/apaedejoia/" target="_blank">
+            <img src="{{ url_for('static', filename='images/instagram.png') }}" alt="" width=3%> 
+            <p>@apaedejoia</p></a>
+        
+        <a href="https://www.facebook.com/Apaedejoia" target="_blank">
+            <img src="{{ url_for('static', filename='images/facebook.png') }}" alt="" width=2%>
+            <p>@Apae Jóia</p></a>
+
+        <a href="https://wa.me/5599773239" target="_blank">
+            <img src="{{ url_for('static', filename='images/whatsapp.png') }}" alt="" width="2%">
+            <p>+55 55 99773239</p></a>
+    </footer>
 </body>
 </html>
