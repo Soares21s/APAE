@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apae de Jóia</title>
     <link rel="icon" href="{{ url_for('static', filename='images/logo_apae.png') }}" type="image/x-icon">
-    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style_header.css') }}">
 </head>
 </head>
 <body>
     <header id="header">
-        <a href="/"><H1>APAE</H1></a>
-        <a href="/"><img src="{{ url_for('static', filename='images/logo_apae.png') }}" width=5% alt=""></a>
-        <a href="/projetos">Projetos</a>
-        <a href="/clinica">Clinica</a>
-        <a href="/seja_voluntario">Seja Voluntário</a>
+        <a href="/"><img src="{{ url_for('static', filename='images/logo_apae.png') }}" width=5% alt="" id="logo"></a>
+        <a href="/"><H1 id="apae">APAE</H1></a>
+        <a href="/projetos" id="projects">Projetos</a>
+        <a href="/clinica" id="clinic">Clinica</a>
+        <a href="/seja_voluntario" id="vonluntary">Seja Voluntário</a>
     </header>
 
     
