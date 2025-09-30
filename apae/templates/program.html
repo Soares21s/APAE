@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Programas</h1>
+
+    <div>
+        <h2>Apaexonados pelo Rio Grande</h2>
+        <p>Instruido por Alisson Fernandes.</p>
+        <p>O projeto Apaexonados pelo Rio Grande tem como objetivo estimular a criatividade,
+            a dança e principalmente manter a cultura gaúcha.
+        </p>
+        <img src="{{ url_for('static', filename='images/projeto_apaexonados_1.jpg') }}" alt="" width=30%>
+        <img src="{{ url_for('static', filename='images/projeto_apaexonados_2.jpg') }}" alt="" width=30%>
+        <img src="{{ url_for('static', filename='images/projeto_apaexonados_3.jpg') }}" alt="" width=30%>
+        <img src="{{ url_for('static', filename='images/projeto_apaexonados_4.jpg') }}" alt="" width=30%>
+    </div>
+    
+{% endblock %}

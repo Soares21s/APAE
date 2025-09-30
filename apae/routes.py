@@ -5,9 +5,9 @@ from apae import app
 def homepage():
     return render_template("homepage.html")
 
-@app.route('/pap')
+@app.route('/projetos')
 def story():
-    return render_template('pap.html')
+    return render_template('program.html')
 
 @app.route('/clinica')
 def clinic():
